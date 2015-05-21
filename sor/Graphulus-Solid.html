@@ -119,16 +119,20 @@ function init()
 	// CUSTOM //
 	////////////
 	
-	scene.add( new THREE.AxisHelper() );
+	scene.add( new THREE.AxisHelper(7) );
 
 	// wireframe for xy-plane
 	var wireframeMaterial = new THREE.MeshBasicMaterial( { color: 0x000088, wireframe: true, side:THREE.DoubleSide } ); 
-	var floorGeometry = new THREE.PlaneGeometry(100,100,10,10);
-	var floor = new THREE.Mesh(floorGeometry, wireframeMaterial);
+	var wireframeMaterial2 = new THREE.MeshBasicMaterial( { color: 0x008800, wireframe: true, side:THREE.DoubleSide } ); 
+	var floorGeometry = new THREE.PlaneGeometry(10, 10,50,50);
+	var floor = new THREE.Mesh(floorGeometry, wireframeMaterial);	
+	var wall  = new THREE.Mesh(floorGeometry, wireframeMaterial2);
 	floor.position.z = -0.01;
+	wall.rotation.x = Math.PI / 2
 	// rotate to lie in x-y plane
 	// floor.rotation.x = Math.PI / 2;
 	scene.add(floor);
+	scene.add(wall);
 	
 	var normMaterial = new THREE.MeshNormalMaterial;
 	var shadeMaterial = new THREE.MeshLambertMaterial( { color: 0xff0000 } );
@@ -195,9 +199,6 @@ function createGraph()
 	uRange = uMax - uMin;
 	vRange = 2*3.14159265359;;
 	Func =  Parser.parse(yFuncText).toJSFunction( ['x'] );	
-	xFunc = function(u,v) {return u;};	
-	yFunc = function(u,v) {return Func(u)*cos(v);};	
-	zFunc = function(u,v) {return Func(u)*sin(v);};;
 	meshFunction = function(u0, v0) 
 	{       
 	
