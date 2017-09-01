@@ -24,7 +24,7 @@ This is also ported in 2012, has various improvements since then, mostly by othe
 
 * [online Demo](xnes/)
 * repo: [https://github.com/tjwei/xnes](https://github.com/tjwei/xnes)
-* Video of the emulator running on XOOM
+* Video of the emulator running on Motorola XOOM(one of the earilest android tablets)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PZzsPo5qs2A" frameborder="0" allowfullscreen></iframe>
