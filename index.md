@@ -7,7 +7,7 @@ I ported the emulator in 2012 (videos below), the source code was lost and remak
 
 
 * [online demo](pcsxjs/)
-* repo: https://github.com/tjwei/pcsxjs
+* repo: [https://github.com/tjwei/pcsxjs](https://github.com/tjwei/pcsxjs)
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1VihD4iaOJM" frameborder="0" allowfullscreen></iframe>
 
@@ -23,7 +23,7 @@ This is also ported in 2012, has various improvements since then, mostly by othe
 
 
 * [online Demo](xnes/)
-* repo: https://github.com/tjwei/xnes
+* repo: [https://github.com/tjwei/xnes](https://github.com/tjwei/xnes)
 * Video of the emulator running on XOOM
 
 
@@ -33,14 +33,14 @@ This is also ported in 2012, has various improvements since then, mostly by othe
 Collection of jupyter notebooks of implementations of generative adversarial networks
 
 
-* repo: https://github.com/tjwei/GANotebooks
+* repo: [https://github.com/tjwei/GANotebooks](https://github.com/tjwei/GANotebooks)
 
 ### 2048-NN
 A Deep Learning AI for 2048 
 
 
 * [online Demo](2048-NN/)
-* repo: https://github.com/tjwei/2048-NN
+* repo: [https://github.com/tjwei/2048-NN](https://github.com/tjwei/2048-NN)
 * [reinforcement training using selenium firefox, lasagne, and cudnn](https://github.com/tjwei/2048-NN/blob/master/my2048-rl-theano-n-tuple-Copy7.ipynb)
 * Videos of self training to hit it's first 2048 in 28 games.
 
