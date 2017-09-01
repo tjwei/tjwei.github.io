@@ -3,7 +3,9 @@
 ### pcsxjs
 JavaScript PS1 emulator (WebAssembly emscripten).
 Based on a version of pcsx-r.
- I ported the emulator in 2012 (videos below), the source code was lost and remake it again in 2017, except it has sound now and is much faster.
+I ported the emulator in 2012 (videos below), the source code was lost and remake it again in 2017, except it has sound now and is much faster.
+
+
 * [online demo](pcsxjs/)
 * repo: https://github.com/tjwei/pcsxjs
  
@@ -18,6 +20,8 @@ Based on a version of pcsx-r.
 JavaScript SNES emulator (WebAssembly emscripten)
 based on a version of snes9x and snem.
 This is also ported in 2012, has various improvements since then, mostly by other contributors.
+
+
 * [online Demo](xnes/)
 * repo: https://github.com/tjwei/xnes
 * Video of the emulator running on XOOM
@@ -27,10 +31,14 @@ This is also ported in 2012, has various improvements since then, mostly by othe
 
 ### Generative Adversarial Notebooks
 Collection of jupyter notebooks of implementations of generative adversarial networks
+
+
 * repo: https://github.com/tjwei/GANotebooks
 
 ### 2048-NN
 A Deep Learning AI for 2048 
+
+
 * [online Demo](2048-NN/)
 * repo: https://github.com/tjwei/2048-NN
 * [reinforcement training using selenium firefox, lasagne, and cudnn](https://github.com/tjwei/2048-NN/blob/master/my2048-rl-theano-n-tuple-Copy7.ipynb)
