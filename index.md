@@ -12,7 +12,7 @@ I ported the emulator in 2012 (videos below), the source code was lost and remak
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1VihD4iaOJM" frameborder="0" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1VihD4iaOJM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zgf7GyTDy8A" frameborder="0" allowfullscreen></iframe>
 
 
 
